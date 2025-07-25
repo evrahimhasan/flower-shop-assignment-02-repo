@@ -401,7 +401,7 @@
   }
 
   .product-grid {
-    width: 362px;
+    width: 352px;
   }
 
  .product-card {
@@ -419,7 +419,6 @@
   color: #FFFFFF;
   font-size: 0.5rem;
   padding: 10px 40px;
-  /* text-align: center; */
 } 
 
 
@@ -439,8 +438,6 @@
     align-items: center;
     gap: 0; 
     width: 321px;
-    padding-bottom: 60px;
-    margin: ;
   }
 
   .subscribe-box input {
@@ -515,10 +512,8 @@
     text-align: left;
     align-items: start;
     margin-top: 50px;
-    padding: 0px;
+    padding: 0 20px;
     width: 393px;
-    margin-left: 0px;
-    margin-right: 0px;
     
   }
 
@@ -529,10 +524,10 @@
   .footer-links {
     flex-direction: column;
     gap: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
 
   .social-icons {
-    margin-bottom: 50px;
+    margin-top: 20px;
   }
 }  
