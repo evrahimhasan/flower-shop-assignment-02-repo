@@ -99,6 +99,93 @@
 }
 
 
+/* our plants related style */
+.our-plants {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+}
+
+.our-plants h2 {
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.our-plants p {
+  font-size: 1.375rem;
+  margin-bottom: 50px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.product-card {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  font-size: 1.375rem;
+}
+.product-card p {
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+.product-card button {
+  width: 270px;
+  height: 50px;
+}
+.btn-primary{
+  border: none;
+  background-color: #E95A08;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 19px 80px;
+  text-align: center;
+} 
+
+
+/* flower plants lover related style*/
+
+.badge{
+  position: absolute;
+  width: 285px;
+  height: 285px;
+  margin-left: 347px;
+  margin-top: -130px;
+}
+.flower{
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.flower-title{
+  max-width: 540px;
+}
+
+.flower-title h3 {
+  font-size: 3.12rem;
+  font-weight: 700;
+}
+.flower-title ul li {
+  font-size: 1.375rem;
+  margin-bottom: 20px;
+}
 
 
 /* latest deals related styles */
@@ -193,79 +280,6 @@
 
 
 
-/* our plants related style */
-.our-plants {
-  max-width: 1140px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 2rem;
-}
-
-.our-plants h2 {
-  font-size: 3.125rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-}
-
-.our-plants p {
-  font-size: 1.375rem;
-  margin-bottom: 50px;
-}
-
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1rem;
-}
-
-.product-card {
-  text-align: center;
-}
-
-.product-card img {
-  width: 100%;
-  height: auto;
-}
-
-.product-card h3 {
-  font-size: 1.375rem;
-}
-.product-card p {
-  font-size: 1.375rem;
-  font-weight: 700;
-}
-
-/* flower plants lover related style*/
-
-.badge{
-  position: absolute;
-  width: 285px;
-  height: 285px;
-  margin-left: 347px;
-  margin-top: -130px;
-}
-.flower{
-  max-width: 1140px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 130px;
-  margin-bottom: 130px;
-}
-
-.flower-title{
-  max-width: 540px;
-}
-
-.flower-title h3 {
-  font-size: 3.12rem;
-  font-weight: 700;
-}
-.flower-title ul li {
-  font-size: 1.375rem;
-  margin-bottom: 20px;
-}
-
 
 /* subscribe-section related styles */
 .subscribe-section {
@@ -357,7 +371,26 @@
     display: none;
   }
 
-/*  */
+ .product-card {
+  width: 171px;
+ }
+ 
+ .product-card button {
+  width: 171px;
+ }
+ 
+ .btn-primary{
+  width: 171px;
+  border: none;
+  background-color: #E95A08;
+  color: #FFFFFF;
+  font-size: 0.5rem;
+  padding: 10px 40px;
+  /* text-align: center; */
+} 
+
+
+
 .subscribe-section {
     height: auto;
   }
@@ -387,7 +420,7 @@
   } 
 
   .deals {
-    padding: 0 20px;
+    padding: 0 30px;
   }
   .deals h2 {
     font-size: 1.5rem;
@@ -415,7 +448,7 @@
   .flower {
     flex-direction: column; 
     padding: 0 20px;         
-    text-align: center;      
+    text-align: center;     
   }
 
   .flower-title {
