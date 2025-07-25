@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+/* Shared Styles */
+
+.display-flex {
+    display: flex;
+}
+.color1{
+    color: #252432;
+}
+.color2 {
+    color: #8987A1;
+}
+.color3 {
+    color: rgba(0, 0, 0, 0.5);
+}
+.color4 {
+    color: #E95A08;
+}
+.color-black {
+    color: #000000;
+}
+
+/* navbar related style */
+.navbar {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: white;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-links .cart {
+  border-left: 1px solid #ccc;
+  padding-left: 1rem;
+}
+
+
+/* banner related style */
+.hero {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background: #fff;
+}
+
+.hero-text {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.375rem;
+  margin-top: 1rem;
+}
+
+.hero-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* our plants related style */
+.our-plants {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+}
+
+.our-plants h2 {
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.our-plants p {
+  font-size: 1.375rem;
+  margin-bottom: 50px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.product-card {
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  font-size: 1.375rem;
+  /* margin: 0.5rem 0; */
+}
+.product-card p {
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+
+
+
+/* Responsive for Mobile Device */
+@media (max-width: 576px) {
+  .hero {
+    flex-direction: column-reverse;
+  }
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  #nav-hide {
+    display: none;
+  }
+}
