@@ -359,8 +359,24 @@
 
 /* Responsive for Mobile Device */
 @media (max-width: 576px) {
+  
+  body {
+    margin: 0px;
+  }
   .hero {
     flex-direction: column-reverse;
+    padding: 0px;
+    width: 393px;
+  }
+  .hero-text {
+    padding-right: 0px;
+    width: 361px;
+  }
+  .hero-text h1 {
+    font-size: 24px;
+  }
+  .hero-text p {
+    font-size: 14px;
   }
   .product-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -369,6 +385,23 @@
 
   #nav-hide {
     display: none;
+  }
+
+
+  .our-plants {
+    padding: 0px;
+    width: 393px;
+    margin: 0px;
+  }
+  .our-plants h2 {
+    font-size: 24px;
+  }
+  .our-plants p {
+    font-size: 14px;
+  }
+
+  .product-grid {
+    width: 362px;
   }
 
  .product-card {
@@ -393,6 +426,7 @@
 
 .subscribe-section {
     height: auto;
+    width: 393px;
   }
 
   .subscribe-section h2 {
@@ -404,8 +438,9 @@
     flex-direction: row;
     align-items: center;
     gap: 0; 
-    padding: 10px;
+    width: 321px;
     padding-bottom: 60px;
+    margin: ;
   }
 
   .subscribe-box input {
@@ -420,7 +455,7 @@
   } 
 
   .deals {
-    padding: 0 30px;
+    width: 361px;
   }
   .deals h2 {
     font-size: 1.5rem;
@@ -446,9 +481,10 @@
 
 
   .flower {
-    flex-direction: column; 
-    padding: 0 20px;         
-    text-align: center;     
+    flex-direction: column;        
+    text-align: center;   
+    width: 361px;  
+    margin: 41px 17px;
   }
 
   .flower-title {
@@ -476,10 +512,13 @@
 
    .footer {
     flex-direction: column;
-    padding: 0 20px;
     text-align: left;
     align-items: start;
     margin-top: 50px;
+    padding: 0px;
+    width: 393px;
+    margin-left: 0px;
+    margin-right: 0px;
     
   }
 
