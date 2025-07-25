@@ -138,12 +138,44 @@
   font-weight: 700;
 }
 
+/* flower plants lover related style*/
+
+.badge{
+  position: absolute;
+  width: 285px;
+  height: 285px;
+  margin-left: 347px;
+  margin-top: -130px;
+}
+.flower{
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.flower-title{
+  max-width: 540px;
+}
+
+.flower-title h3 {
+  font-size: 3.12rem;
+  font-weight: 700;
+}
+.flower-title ul li {
+  font-size: 1.375rem;
+  margin-bottom: 20px;
+}
 
 
 
 
 
-/*  */
+
+
+/* subscribe-section related styles */
 .subscribe-section {
   background: url("../assets/news-letter-bg.png") center/cover;
   background-repeat: no-repeat;
@@ -180,7 +212,7 @@
   padding: 0 20px;
   cursor:pointer;
 }
-/*  */
+
 
 
 
@@ -207,9 +239,7 @@
 
 /*  */
 .subscribe-section {
-  /* width: 100%; */
     height: auto;
-    /* padding-bottom: 60px; */
   }
 
   .subscribe-section h2 {
@@ -238,6 +268,36 @@
 
 /*  */
 
+/*  */
+  .flower {
+    flex-direction: column; 
+    padding: 0 20px;         
+    text-align: center;      
+  }
 
+  .flower-title {
+    max-width: 100%;        
+  }
 
+  .flower img {
+    width: 100%;            
+    height: auto;
+  }
+
+  .flower-title h3 {
+    font-size: 1.5rem;        
+  }
+
+  .flower-title ul li {
+    font-size: 0.875rem;
+    text-align: left;
+  }
+  /* .flower-title li {
+    font-size: 1rem;
+    text-align: left;       
+  } */
+  .badge {
+    display: none;
+  }
+/*  */
 }
